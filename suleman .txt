@@ -1,0 +1,100 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 30px;
+  background: #f1f1f1;
+}
+
+.header {
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  background: white;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+
+.card {
+   background-color: #E8FFFF;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h2>Suleman's Resume</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h3>Profession</h3>
+      <h5>Undergraduate in SRM University :</h5>
+      <p>I am an Electronics and Communication Engineering student (ECE Branch).
+          I have done many workshops on Digital Marketing which iam mostly intrested in.
+          I am persuing my third year of Degree.</p>
+    </div>
+
+    <div class="card">
+      <h3>Languages Known:</h3>
+      <li>JAVA</li>
+      <li> C </li>
+      <li>PYTHON</li>
+    </div>
+  </div>
+
+    <div class="card" fontCOLOR="gray">
+      <h3>Details:</h3>
+      <li>Name: SULEMAN MOHAMMED</li>
+     <li>Gender: MALE</li>
+     <li>Martial Status : Unmarried</li>
+     <li>Date Of Birth : 20 December 2001</li>
+     <li> Nationality : INDIAN</li>
+     <li> Blood Group : B+ve</li>									
+    </div>
+
+    <div class="card">
+      <h3>Intrests and Hobbies :</h3>
+      <p>I am intrested in a startup with my friends. We started the project few weeks back. My intrest is towards the Digital Marketing. I am a rider and a traveller.</p>
+    </div>
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 align="center">Info :</h2>
+     <p align="left">
+     <b>Email me to :</b><br><a href="mailto:mohammedsuleman857@gmail.com">mohammedsuleman857@gmail.com</a></p> 
+      <p align="left"><b>Phone to:<br><a href="phone to:9652884190">(+91) 9652884190</a></p>
+    </div>
+  </div>
+</div>
